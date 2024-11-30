@@ -1,0 +1,51 @@
+.headerContainer{
+    background-color: rgb(249, 249, 212);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:2px;
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerHeading{
+    color:green;
+    align-self: center;
+    margin:10px
+}
+.headerslist{
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+.listHeader{
+    margin:10px;
+    font-size:20px;
+    font-weight: bold;
+}
+.navLink{
+    text-decoration: none;
+    color:black;
+}
+.navLink1{
+    color:green;
+}
+.loginBtn{
+    border-color:green;
+    border-width: 2px;
+    width:120px;
+    padding:10px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    color:green;
+}
+.logoutBtn{
+    width:120px;
+    padding:10px;
+    border-radius: 15px;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;    
+}

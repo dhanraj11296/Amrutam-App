@@ -1,0 +1,304 @@
+.fullContainer{
+    background-color: white;
+    padding:70px;
+}
+
+.profileDetails1{
+    display: flex; 
+    flex-direction: row;
+    align-self: space-between;
+    padding:5px;
+    background-image: linear-gradient(rgb(134, 236, 141), rgb(237, 237, 147));
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.profileimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    margin:20px;
+}
+.profileLists{
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+}
+.profileList{
+    list-style-type: none;
+}
+.listProfile1{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+}
+.listProfile2{
+    color:green;
+    padding:5px;
+    font-weight: bold;
+}
+.listProfile3{
+    color:green;
+    padding:5px;
+}
+.starcolor{
+    color: rgb(251, 218, 3);
+}
+.checkIcon{
+    color:rgb(56, 91, 248);
+}
+.followerProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding:10px;
+    margin:10px;
+}
+.followerList{
+    list-style-type: none;
+}
+.followerListHead{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    align-self: center;
+    color:green;
+}
+.followerListNo{
+    font-weight:bold;
+    font-size:30px;
+    align-self: center;
+}
+.appointmentButton{
+    display:flex;
+    flex-direction: column; 
+    align-self: center;
+    margin:80px;
+}
+.appBtn{
+    color:white;
+    background-color: green;
+    border-radius: 15px;
+    padding:15px;
+    font-size: 15px;
+}
+
+.containers{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    width:100vh;
+    margin-top:20px;
+}
+.profileDetails2{
+    display: flex; 
+    flex-direction: column;
+    align-self: space-between;
+    background-color:rgb(239, 234, 234);
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:10px;
+}
+.details1{
+    display: flex; 
+    flex-direction: row;
+    align-self: space-between;
+    justify-content: space-around;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(rgb(134, 236, 141), rgb(237, 237, 147));
+}
+.followBtn{
+    color:black;
+    border-radius: 10px;
+    width:100px;
+    padding:10px;
+    font-size: 15px;
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    margin:15px
+}
+.littlehead{
+    font-size: 25px;
+    margin-right:110px;
+}
+.line{
+    display:flex;
+    flex-direction: row;
+}
+.hrline{
+    color:black;
+    width:500px;
+}
+.cont1{
+    background-color:rgb(239, 234, 234);
+    padding:10px
+}
+.cont2{
+    display:flex;
+    flex-direction: row;
+}
+.langList{
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.langSm{
+    margin:10px;
+    background-color: rgb(175, 166, 166);
+    padding: 5px;
+    border-radius: 10px;
+}
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+
+}
+.socialList{
+    height: 30px;
+    width: 30px;
+    color: rgb(176, 163, 163);
+    margin:10px;
+}
+.profileDetails3{
+    width:100vh;
+}
+.details2{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.littlehead1{
+    margin-left:30px;
+}
+.womenHealth{
+    height:50px;
+    width: 50px;
+    background-color:rgb(201, 200, 200);
+    padding:10px;
+    border-radius: 10px;
+}
+.details3{
+    display: flex; 
+    flex-direction: row;
+}
+.listDetails{
+    list-style-type: none;
+}
+.specialList{
+    margin:10px;
+}
+.langSm1{
+    margin:2px;
+    background-color: rgb(175, 166, 166);
+    padding: 5px;
+    border-radius: 10px;
+    color:green
+}
+.langList1{
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    align-items: flex-start;
+    padding:10px;
+}
+.littlehead2{
+    font-size: 15px;
+    margin-left:30px;
+    color: green;
+}
+.hospitalImg{
+    height:70px;
+    width: 70px;
+}
+.medicalExp{
+    display: flex; 
+    flex-direction: row;
+    padding:5px;
+}
+.medicalExp1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin:2px
+}
+span{
+    margin-left:70px;
+    color: rgb(176, 163, 163);
+}
+.reviewProfile{
+    border-radius: 100px;
+    height:100px;
+    width:100px;
+}
+.medicalExp3{
+    padding:20px;
+    margin-left:30px
+}
+.socialList1{
+    margin-left:20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.socialList2{
+    margin-left:20px;
+    color: rgb(176, 163, 163);
+}
+.startAlign{
+    margin-top:-10px;
+    margin-left:60px;
+}
+
+.sideContainer{
+    display:flex;
+    flex-direction: row; 
+    background-color: white;
+}
+.profileDetailsside2{
+    background-color:white;
+    border-color: rgb(185, 179, 179); 
+    border-width: 1px;
+    border-style:solid; 
+    border-radius:20px;
+}
+.detailsside{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.details4{
+    display:flex;
+    flex-direction: row;
+    border-color: rgb(185, 179, 179); 
+    border-radius: 20px; 
+    border-style: solid; 
+    border-width: 1px;
+    width:500px;
+    align-self: space-around;
+}
+.littleheadside{
+    margin-right:5px;
+    padding:5px;
+}
+.followBtnside{
+    display: flex; 
+    align-items: center;
+    font-size:25px;
+    color:green;
+    margin-left:145px;
+}
+.littleheadside1{
+    margin:10px;
+}
+.bookApp{
+    text-decoration: none;
+    color:white;
+}
